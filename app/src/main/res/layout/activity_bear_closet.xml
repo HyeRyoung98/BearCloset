@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/banana_yellow">
+
+  <!--background-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_above="@+id/bg_check"
+        android:scaleType="center"
+        android:background="@color/line_blue"/>
+
+    <ImageView
+        android:id="@+id/bg_check"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/splash_background"
+        android:scaleType="center"/>
+
+
+    <!--object-->
+    <ImageView
+        android:id="@+id/bear"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bear"/>
+
+    <ImageView
+        android:id="@+id/marine"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_alignTop="@+id/bg_check"
+        android:src="@drawable/marine_costume" />
+
+    <ImageView
+        android:id="@+id/panda"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_alignTop="@+id/bg_check"
+        android:layout_alignRight="@+id/bg_check"
+        android:src="@drawable/panda_costume" />
+
+    <ImageView
+        android:id="@+id/spring"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/spring_costume" />
+
+    </RelativeLayout>
+
